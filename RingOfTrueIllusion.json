@@ -15,7 +15,7 @@
 		{
 			"name": "Ring of True Illusion",
 			"source": "Dnd",
-			"page": "0",
+			"page": 0,
 			"type": "RG",
 			"rarity": "rare",
 			"reqAttune": true,
