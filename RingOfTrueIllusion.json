@@ -2,20 +2,29 @@
 	"_meta": {
 		"sources": [
 			{
-				"item": [
-					{
-						"name": "Ring of True Illusion",
-						"source": "custom",
-						"page": "0",
-						"type": "ring",
-						"rarity": "rare",
-						"entries": [
-							"While wearing this ring, you may speak its command word to toggle its effect.  While equipped and active, this ring allows you to interact with illusions as if they were real.  You can not be damaged by illusions as a result of this effect."
-						],
-						"reqAttune": true
-					}
-				]
+				"json": "5etools",
+				"abbreviation": "item",
+				"full": "5etools",
+				"authors": [
+					"xstream587"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/xstream5878/Dnd2.0",
+				"targetSchema": "1.0.0"
 			}
 		]
-	}
+	},
+	"item": [
+		{
+			"name": "Ring of True Illusion",
+			"source": "custom",
+			"page": "0",
+			"type": "ring",
+			"rarity": "rare",
+			"entries": [
+				"While wearing this ring, you may speak its command word to toggle its effect.  While equipped and active, this ring allows you to interact with illusions as if they were real.  You can not be damaged by illusions as a result of this effect."
+			],
+			"reqAttune": true
+		}
+	]
 }
