@@ -14,7 +14,7 @@
 	"item": [
 		{
 			"name": "Arrow, Hummerhead Blunt (10)",
-			"type": "A",
+			"type": "RG",
 			"ammunition": true,
 			"value": 100,
 			"weight": 0.5,
