@@ -15,10 +15,6 @@
 		{
 			"name": "Arrow, Hummerhead Blunt (10)",
 			"type": "RG",
-			"ammunition": true,
-			"value": 100,
-			"weight": 0.5,
-			"reqspace": "Smithe",
 			"source": "TrickArrows",
 			"page": 3,
 			"entries": [
