@@ -2,8 +2,8 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Dnd2.0",
-				"abbreviation": "item",
+				"json": "Dnd",
+				"abbreviation": "dnd",
 				"full": "Ring of True Illusion",
 				"version": "1.0.0"
 			}
@@ -14,7 +14,7 @@
 	"item": [
 		{
 			"name": "Ring of True Illusion",
-			"source": "Dnd2.0",
+			"source": "Dnd",
 			"page": "0",
 			"type": "RG",
 			"rarity": "rare",
