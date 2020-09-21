@@ -12,9 +12,9 @@
 	"item": [
 		{
 			"name": "Ring of True Illusion",
-			"source": "custom",
+			"source": "Dnd2.0",
 			"page": "0",
-			"type": "ring",
+			"type": "RG",
 			"rarity": "rare",
 			"entries": [
 				"While wearing this ring, you may speak its command word to toggle its effect.  While equipped and active, this ring allows you to interact with illusions as if they were real.  You can not be damaged by illusions as a result of this effect."
