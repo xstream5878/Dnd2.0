@@ -2,15 +2,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "5etools",
+				"json": "Dnd2.0",
 				"abbreviation": "item",
-				"full": "5etools",
-				"authors": [
-					"xstream587"
-				],
+				"full": "Ring of True Illusion",
 				"version": "1.0.0",
-				"url": "https://github.com/xstream5878/Dnd2.0",
-				"targetSchema": "1.0.0"
 			}
 		]
 	},
