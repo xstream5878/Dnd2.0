@@ -54,21 +54,32 @@
 		{
 			"name": "Focus Lantern",
 			"source": "Relics",
-			"type": "INS",
+			"type": "SCF",
 			"rarity": "artifact",
-			"reqAttune": "by a creature proficient with flutes",
-			"attachedSpells": [
-				"Ray of Enfeeblement",
-				"Cause Fear",
-				"Stinking Cloud",
-				"Faerie Fire",
-				"Web",
-				"Counterspell"
-			],
+			"reqAttune": "by a creature that can cast at least one spell",
 			"focus": true,
 			"wondrous": true,
 			"entries": [
-				"You can use an action to play the instrument and cast 1 of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC. Spells you cast that do no damage and have hindering effects do not affect your allies (unless you want them to) and have +2 to their DC. These effects apply whether you are using the instrument as the source of the spell or as a spellcasting focus. You can concentrate on spells cast from this instrument separately from spells you know, and you make separate concentration checks for each spell you are concentrating on. If you are concentrating on a spell from this instrument and end your turn without the instrument in your possession, you lose concentration on that spell."
+				"This lantern can not be opened, constantly emits a dull, barely visible red light, and can be used as a spellcasting focus. This artifact has 3 charges, which regenerate each dawn. As a bonus action, you can click a small button on the handle of the lantern, expending a charge and causing it to emit a color. Roll a d6 to determine what color is emitted, then select a target to be affected by the lantern. Only one lantern effect can be active at once, and if another activates, the previous is dispelled.",
+				"1: Grey. Target creature's color dulls to grey. For the next minute, while in dim light or darkness, target creature can use the Hide action for free at the end of its turn.\n2: Red. Target creature must make an Intelligence saving throw. On a failed save, the creature becomes enraged for one minute, becoming unable to cast spells or take ranged attacks, and gains advantage on melee attack rolls. The creature may remake the saving throw at the end of each of its turns.\n3: Blue. Target creature gains the effect of the Fly spell for one minute.\n4: Purple. Target creature must make a Widsom saving throw. On a failed save, the creature becomes frightened of you for 1 minute. The creature can remake its saving throw at the end of each of its turns.\n5:Yellow. Target creature rolls 4 dice of the same value as its hit dice and heals that amount.\n6: Black. Target creature makes a Dexterity saving throw, taking 10d6 necrotic damage on a failed save, or half as much on a successful one. ",
+				"All saving throws for this artifact are DC 14 + prof",
+				"If a creature is taken to 0 hit points by the black light effect, instead of falling unconscious, it is transformed into a larva."
+			]
+		},
+		{
+			"name": "Exhalted Focus Lantern",
+			"source": "Relics",
+			"type": "SCF",
+			"rarity": "artifact",
+			"reqAttune": "by a creature that can cast at least one spell",
+			"focus": true,
+			"wondrous": true,
+			"entries": [
+				"This lantern can not be opened, constantly emits a dull, barely visible red light, and can be used as a spellcasting focus. This artifact has 3 charges, which regenerate each dawn. As a bonus action, you can click a small button on the handle of the lantern, expending a charge and causing it to emit a color. Roll a d6 to determine what color is emitted, then select a target to be affected by the lantern. Only one lantern effect can be active at once, and if another activates, the previous is dispelled.",
+				"1: Grey. Target creature's color dulls to grey. For the next minute, while in dim light or darkness, target creature can use the Hide action for free at the end of its turn.\n2: Red. Target creature must make an Intelligence saving throw. On a failed save, the creature becomes enraged for one minute, becoming unable to cast spells or take ranged attacks, and gains advantage on melee attack rolls. The creature may remake the saving throw at the end of each of its turns.\n3: Blue. Target creature gains the effect of the Fly spell for one minute.\n4: Purple. Target creature must make a Widsom saving throw. On a failed save, the creature becomes frightened of you for 1 minute. The creature can remake its saving throw at the end of each of its turns.\n5:Yellow. Target creature rolls 4 dice of the same value as its hit dice and heals that amount.\n6: Black. Target creature makes a Dexterity saving throw, taking 14d6 necrotic damage on a failed save, or half as much on a successful one. ",
+				"All saving throws for this artifact are DC 14 + prof",
+				"If a creature is taken to 0 hit points by the black light effect, instead of falling unconscious, it is transformed into a larva.",
+				"All damaging spells cast from this focus deal an extra die of damage for each damage dice set it deals. For example, an attack dealing 4d6 fire and 6d4 cold damage would instead deal 5d6 fire and 7d4 cold damage."
 			]
 		}
 	]
