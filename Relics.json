@@ -81,6 +81,53 @@
 				"If a creature is taken to 0 hit points by the black light effect, instead of falling unconscious, it is transformed into a larva.",
 				"All damaging spells cast from this focus deal an extra die of damage for each damage dice set it deals. For example, an attack dealing 4d6 fire and 6d4 cold damage would instead deal 5d6 fire and 7d4 cold damage."
 			]
+		},
+		{
+			"name": "Mind's Expance",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"wondrous": true,
+			"entries": [
+				"This small, simple wooden box has a black latch that keeps it shut. The inside of the box contains a single blue, ovular, stone-like object. This pill can be crushed by a creature using a bonus action. When done so, you begin to move like a blur, so fast that you seem to leave an after-image when you move. For one minute, your move and jump speeds are doubled, attacks against you have disadvantage, you have advantage on all Dexterity rolls, and creatures can not take attacks of opportunity against you. If a creature misses you with a melee attack while this effect is active, you may use your reaction to take a retaliatory strike.",
+				"A single pill fills the box. At dawn, the box refills if not full. A pill loses its potency if not used in 10 minutes after being removed from the box."
+			]
+		},
+		{
+			"name": "Exhalted Mind's Expance",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"wondrous": true,
+			"entries": [
+				"This small, simple wooden box has a black latch that keeps it shut. The inside of the box contains a single blue, ovular, stone-like object. This pill can be crushed by a creature using a bonus action. When done so, you begin to move like a blur, so fast that you seem to leave an after-image when you move. For one minute, your move and jump speeds are doubled, attacks against you have disadvantage, you have advantage on all Dexterity rolls, and creatures can not take attacks of opportunity against you. If a creature misses you with a melee attack while this effect is active, you may use your reaction to take a retaliatory strike.  While under the effect of a pill, reducing a creature to 0 hit points heals you for half the amount of damage you dealt to knock the creature out.",
+				"The box can hold up 3 pills. At dawn, the box refills if not full. A pill loses its potency if not used in 10 minutes after being removed from the box."
+			]
+		},
+		{
+			"name": "Trapper Shard",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"wondrous": true,
+			"entries": [
+				"This shard can only be used by a creature that can cast at least one spell.",
+				"This purple crystal shard contains a single chain link inside of it. As an action, you can speak the command word to send out chains of dark energy at a target creature. Make a ranged (60 ft) spell attack. On hit, the chains pierce through the target, dealing 4d6 necrotic damage to the target, which must make a Strength saving throw (DC 14 + prof), becoming grappled and restrained on a failure (the target can make the saving throw again as an Action on its turn). You can use your bonus action on subsequent turns to move the target up to 30 feet in any direction. You can also slam the creature into solid objects once per turn, dealing 2d6 bludgeoning damage to the target.", 
+				"This shard has 3 charges which reset at each dawn."
+			]
+		},
+		{
+			"name": "Exhalted Trapper Shard",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"wondrous": true,
+			"reqAttune": "optional",
+			"entries": [
+				"This shard can only be used by a creature that can cast at least one spell.",
+				"This purple crystal shard contains a single chain link inside of it. As an action, you can speak the command word to send out chains of dark energy at a target creature. Make a ranged (60 ft) spell attack. On hit, the chains pierce through the target, dealing 4d6 necrotic damage to the target, which must make a Strength saving throw (DC 14 + prof), becoming grappled and restrained on a failure (the target can make the saving throw again as an Action on its turn). You can use your bonus action on subsequent turns to move the target up to 30 feet in any direction. You can also slam the creature into solid objects once per turn, dealing 2d6 bludgeoning damage to the target.", 
+				"This shard has 5 charges which reset at each dawn, or on a short of long rest if attuned."
+			]
 		}
 	]
 }
