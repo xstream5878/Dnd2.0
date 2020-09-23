@@ -50,6 +50,26 @@
 				"You can use an action to play the instrument and cast 1 of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC. Spells you cast that do no damage and have hindering effects do not affect your allies (unless you want them to) and have +2 to their DC. These effects apply whether you are using the instrument as the source of the spell or as a spellcasting focus. You can concentrate on spells cast from this instrument separately from spells you know, and you make separate concentration checks for each spell you are concentrating on. If you are concentrating on a spell from this instrument and end your turn without the instrument in your possession, you lose concentration on that spell.",
 				"Once per day, you can play a maddening song. Any number of creatures you chose within 30 ft of you must make a Wisdom saving throw. On a failed save, for one minute, the target creature becomes afraid of you, and if it chooses to attack a creature on its turn, it must choose its target at random. Affected creatures may make another saving throw against this effect at the end of each of their turns."
 			]
+		},
+		{
+			"name": "Focus Lantern",
+			"source": "Relics",
+			"type": "INS",
+			"rarity": "artifact",
+			"reqAttune": "by a creature proficient with flutes",
+			"attachedSpells": [
+				"Ray of Enfeeblement",
+				"Cause Fear",
+				"Stinking Cloud",
+				"Faerie Fire",
+				"Web",
+				"Counterspell"
+			],
+			"focus": true,
+			"wondrous": true,
+			"entries": [
+				"You can use an action to play the instrument and cast 1 of its spells. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC. Spells you cast that do no damage and have hindering effects do not affect your allies (unless you want them to) and have +2 to their DC. These effects apply whether you are using the instrument as the source of the spell or as a spellcasting focus. You can concentrate on spells cast from this instrument separately from spells you know, and you make separate concentration checks for each spell you are concentrating on. If you are concentrating on a spell from this instrument and end your turn without the instrument in your possession, you lose concentration on that spell."
+			]
 		}
 	]
 }
