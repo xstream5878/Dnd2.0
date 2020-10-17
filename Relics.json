@@ -188,7 +188,7 @@
 			"entries": [
 				"The front of this circlet is adorned with an upside-down triangle with a swirl inside.",
 				"This circlet is made of pure chaotic energy. If you desire, before you would roll a d20, you may activate the circlet to do the following. You may also use your reaction to force a creature you can see within 30 feet to do the following before they make a d20 roll. An unwilling creature must make a Wisdom saving throw DC [[14 + @{pb}]] (14 + prof) to avoid the affect.",
-				"When affected by the circlet and making a d20 roll, target creature first rolls a d12, which affect the d20 roll in the following way.  Flat increases/decreases to the roll can not cause it to critically succeed/fail"
+				"When affected by the circlet and making a d20 roll, target creature first rolls a d12, which affect the d20 roll in the following way.  Flat increases/decreases to the roll can not cause it to critically succeed/fail",
 				"Roll result: [[1t[DislairayTable]]]"
 			]
 		},
@@ -201,7 +201,7 @@
 			"entries": [
 				"The front of this circlet is adorned with an upside-down triangle with a swirl inside.",
 				"This circlet is made of pure chaotic energy. If you desire, before you would roll a d20, you may activate the circlet to do the following. You may also force any creature you can see within 30 feet to do the following before they make a d20 roll. An unwilling creature must make a Wisdom saving throw DC [[14 + @{pb}]] (14 + prof) to avoid the affect.",
-				"When affected by the circlet and making a d20 roll, target creature first rolls a d12, which affect the d20 roll in the following way.  Flat increases/decreases to the roll can not cause it to critically succeed/fail"
+				"When affected by the circlet and making a d20 roll, target creature first rolls a d12, which affect the d20 roll in the following way.  Flat increases/decreases to the roll can not cause it to critically succeed/fail",
 				"Roll result: [[1t[DislairayTable]]]"
 			]
 		}
