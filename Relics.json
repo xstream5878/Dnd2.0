@@ -184,6 +184,7 @@
 			"source": "Relics",
 			"type": "OTH",
 			"rarity": "artifact",
+			"weaponCategory": "artifact",
 			"wondrous": true,
 			"entries": [
 				"The front of this circlet is adorned with an upside-down triangle with a swirl inside.",
@@ -197,12 +198,46 @@
 			"source": "Relics",
 			"type": "OTH",
 			"rarity": "artifact",
+			"weaponCategory": "artifact",
 			"wondrous": true,
 			"entries": [
 				"The front of this circlet is adorned with an upside-down triangle with a swirl inside.",
 				"This circlet is made of pure chaotic energy. If you desire, before you would roll a d20, you may activate the circlet to do the following. You may also force any creature you can see within 30 feet to do the following before they make a d20 roll. An unwilling creature must make a Wisdom saving throw DC [[14 + @{pb}]] (14 + prof) to avoid the affect.",
 				"When affected by the circlet and making a d20 roll, target creature first rolls a d12, which affect the d20 roll in the following way.  Flat increases/decreases to the roll can not cause it to critically succeed/fail",
 				"Roll result: [[1t[DislairayTable]]]"
+			]
+		},
+		{
+			"name": "Abyssal Slicer",
+			"source": "Relics",
+			"type": "OTH",
+			"weaponCategory": "Simple",
+			"dmg1": "2d4+3",
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"range": "40/80"
+			"rarity": "artifact",
+			"wondrous": true,
+			"entries": [
+				"This dagger has black gems encrusted in the blade in a jagged pattern.",
+				"Instead of throwing this dagger, a black dagger-shaped blade of necrotic energy shoots out of it at your target. On hit, the energy remains in its target until the end of your next turn. Once per turn, as a free action, you can teleport to any of the necrotic blades still in existence, the Slicer replacing and dissipating the energy that remains."
+			]
+		},
+		{
+			"name": "Exhalted Abyssal Slicer",
+			"source": "Relics",
+			"type": "OTH",
+			"weaponCategory": "Simple",
+			"dmg1": "2d4+3",
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"range": "40/80"
+			"rarity": "artifact",
+			"wondrous": true,
+			"entries": [
+				"This dagger has black gems encrusted in the blade in a jagged pattern.",
+				"Instead of throwing this dagger, a black dagger-shaped blade of necrotic energy shoots out of it at your target. On hit, the energy remains in its target until the end of your next turn. Once per turn, as a free action, you can teleport to any of the necrotic blades still in existence, the Slicer replacing and dissipating the energy that remains.",
+				"Once per day, when teleporting to a necrotic blade, you cause a piercing scream at the location you were and where you appear. Each enemy within 20 ft of either location that can hear you makes an Intelligence saving throw DC [[14 + @{pb}]] (14 + prof). On a failed save, the creature takes [[6d6]] psychic damage (half on a success) and become frightened of you for 1 minute. Afflicted creatures can remake the saving throw at the end of each of its turns."
 			]
 		}
 	]
