@@ -59,10 +59,12 @@
 			"reqAttune": "by a creature that can cast at least one spell",
 			"focus": true,
 			"wondrous": true,
+			"charges": 3,
+			"recharge": "dawn",
 			"entries": [
 				"This lantern can not be opened, constantly emits a dull, barely visible red light, and can be used as a spellcasting focus. This artifact has 3 charges, which regenerate each dawn. As a bonus action, you can click a small button on the handle of the lantern, expending a charge and causing it to emit a color. Roll a d6 to determine what color is emitted, then select a target to be affected by the lantern. Only one lantern effect can be active at once, and if another activates, the previous is dispelled.",
-				"1: Grey. Target creature's color dulls to grey. For the next minute, while in dim light or darkness, target creature can use the Hide action for free at the end of its turn.\n2: Red. Target creature must make an Intelligence saving throw. On a failed save, the creature becomes enraged for one minute, becoming unable to cast spells or take ranged attacks, and gains advantage on melee attack rolls. The creature may remake the saving throw at the end of each of its turns.\n3: Blue. Target creature gains the effect of the Fly spell for one minute.\n4: Purple. Target creature must make a Widsom saving throw. On a failed save, the creature becomes frightened of you for 1 minute. The creature can remake its saving throw at the end of each of its turns.\n5:Yellow. Target creature rolls 4 dice of the same value as its hit dice and heals that amount.\n6: Black. Target creature makes a Dexterity saving throw, taking 10d6 necrotic damage on a failed save, or half as much on a successful one. ",
-				"All saving throws for this artifact are DC 14 + prof",
+				"1: Grey. Target creature's color dulls to grey. For the next minute, while in dim light or darkness, target creature can use the Hide action for free at the end of its turn.\n2: Red. Target creature must make an Intelligence saving throw. On a failed save, the creature becomes enraged for one minute, becoming unable to cast spells or take ranged attacks, and gains advantage on melee attack rolls. The creature may remake the saving throw at the end of each of its turns.\n3: Blue. Target creature gains the effect of the Fly spell for one minute.\n4: Purple. Target creature must make a Widsom saving throw. On a failed save, the creature becomes frightened of you for 1 minute. The creature can remake its saving throw at the end of each of its turns.\n5:Yellow. Target creature rolls 4 dice of the same value as its hit dice and heals that amount.\n6: Black. Target creature makes a Dexterity saving throw, taking 10d6 = [[10d6]] necrotic damage on a failed save, or half as much on a successful one. ",
+				"All saving throws for this artifact are DC [[12 + @{pb}]] (12 + prof)",
 				"If a creature is taken to 0 hit points by the black light effect, instead of falling unconscious, it is transformed into a larva."
 			]
 		},
@@ -74,10 +76,12 @@
 			"reqAttune": "by a creature that can cast at least one spell",
 			"focus": true,
 			"wondrous": true,
+			"charges": 3,
+			"recharge": "dawn",
 			"entries": [
 				"This lantern can not be opened, constantly emits a dull, barely visible red light, and can be used as a spellcasting focus. This artifact has 3 charges, which regenerate each dawn. As a bonus action, you can click a small button on the handle of the lantern, expending a charge and causing it to emit a color. Roll a d6 to determine what color is emitted, then select a target to be affected by the lantern. Only one lantern effect can be active at once, and if another activates, the previous is dispelled.",
-				"1: Grey. Target creature's color dulls to grey. For the next minute, while in dim light or darkness, target creature can use the Hide action for free at the end of its turn.\n2: Red. Target creature must make an Intelligence saving throw. On a failed save, the creature becomes enraged for one minute, becoming unable to cast spells or take ranged attacks, and gains advantage on melee attack rolls. The creature may remake the saving throw at the end of each of its turns.\n3: Blue. Target creature gains the effect of the Fly spell for one minute.\n4: Purple. Target creature must make a Widsom saving throw. On a failed save, the creature becomes frightened of you for 1 minute. The creature can remake its saving throw at the end of each of its turns.\n5:Yellow. Target creature rolls 4 dice of the same value as its hit dice and heals that amount.\n6: Black. Target creature makes a Dexterity saving throw, taking 14d6 necrotic damage on a failed save, or half as much on a successful one. ",
-				"All saving throws for this artifact are DC 14 + prof",
+				"1: Grey. Target creature's color dulls to grey. For the next minute, while in dim light or darkness, target creature can use the Hide action for free at the end of its turn.\n2: Red. Target creature must make an Intelligence saving throw. On a failed save, the creature becomes enraged for one minute, becoming unable to cast spells or take ranged attacks, and gains advantage on melee attack rolls. The creature may remake the saving throw at the end of each of its turns.\n3: Blue. Target creature gains the effect of the Fly spell for one minute.\n4: Purple. Target creature must make a Widsom saving throw. On a failed save, the creature becomes frightened of you for 1 minute. The creature can remake its saving throw at the end of each of its turns.\n5:Yellow. Target creature rolls 4 dice of the same value as its hit dice and heals that amount.\n6: Black. Target creature makes a Dexterity saving throw, taking 14d6 = [[14d6]] necrotic damage on a failed save, or half as much on a successful one. ",
+				"All saving throws for this artifact are DC [[14 + @{pb}]] (14 + prof)",
 				"If a creature is taken to 0 hit points by the black light effect, instead of falling unconscious, it is transformed into a larva.",
 				"All damaging spells cast from this focus deal an extra die of damage for each damage dice set it deals. For example, an attack dealing 4d6 fire and 6d4 cold damage would instead deal 5d6 fire and 7d4 cold damage."
 			]
@@ -112,7 +116,7 @@
 			"wondrous": true,
 			"entries": [
 				"This shard can only be used by a creature that can cast at least one spell.",
-				"This purple crystal shard contains a single chain link inside of it. As an action, you can speak the command word to send out chains of dark energy at a target creature. Make a ranged (60 ft) spell attack. On hit, the chains pierce through the target, dealing 4d6 necrotic damage to the target, which must make a Strength saving throw (DC 14 + prof), becoming grappled and restrained on a failure (the target can make the saving throw again as an Action on its turn). You can use your bonus action on subsequent turns to move the target up to 30 feet in any direction. You can also slam the creature into solid objects once per turn, dealing 2d6 bludgeoning damage to the target.", 
+				"This purple crystal shard contains a single chain link inside of it. As an action, you can speak the command word to send out chains of dark energy at a target creature. Make a ranged (60 ft) spell attack. On hit, the chains pierce through the target, dealing 4d6 necrotic damage to the target, which must make a Strength saving throw DC [[14 + @{pb}]] (14 + prof), becoming grappled and restrained on a failure (the target can make the saving throw again as an Action on its turn). You can use your bonus action on subsequent turns to move the target up to 30 feet in any direction. You can also slam the creature into solid objects once per turn, dealing 2d6 bludgeoning damage to the target.", 
 				"This shard has 3 charges which reset at each dawn."
 			]
 		},
@@ -125,8 +129,80 @@
 			"reqAttune": "optional",
 			"entries": [
 				"This shard can only be used by a creature that can cast at least one spell.",
-				"This purple crystal shard contains a single chain link inside of it. As an action, you can speak the command word to send out chains of dark energy at a target creature. Make a ranged (60 ft) spell attack. On hit, the chains pierce through the target, dealing 4d6 necrotic damage to the target, which must make a Strength saving throw (DC 14 + prof), becoming grappled and restrained on a failure (the target can make the saving throw again as an Action on its turn). You can use your bonus action on subsequent turns to move the target up to 30 feet in any direction. You can also slam the creature into solid objects once per turn, dealing 2d6 bludgeoning damage to the target.", 
+				"This purple crystal shard contains a single chain link inside of it. As an action, you can speak the command word to send out chains of dark energy at a target creature. Make a ranged (60 ft) spell attack. On hit, the chains pierce through the target, dealing 4d6 necrotic damage to the target, which must make a Strength saving throw DC [[14 + @{pb}]] (14 + prof), becoming grappled and restrained on a failure (the target can make the saving throw again as an Action on its turn). You can use your bonus action on subsequent turns to move the target up to 30 feet in any direction. You can also slam the creature into solid objects once per turn, dealing 2d6 bludgeoning damage to the target.", 
 				"This shard has 5 charges which reset at each dawn, or on a short of long rest if attuned."
+			]
+		},
+		{
+			"name": "Noyan's Feet",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"wondrous": true,
+			"reqAttune": "by a creature that can cast at least one spell",
+			"charges": 1,
+			"recharge": "dawn",
+			"entries": [
+				"As an action, you can slam the boots together to create a shockwave at your feet. Each creature within 30 ft of you when this happens becomes marked by you for one minute. Whenever a marked creature within 30 ft of you casts a spell that would heal or remove a negative effect from a creature, they must make a Charisma saving throw DC [[12 + @{pb}]] (12 + prof). On a failure, the spell fails and has no effect."
+			]
+		},
+		{
+			"name": "Exhalted Noyan's Feet",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"wondrous": true,
+			"reqAttune": "by a creature that can cast at least one spell",
+			"charges": 1,
+			"recharge": "restShort",
+			"entries": [
+				"Once per day as an action, you can slam the boots together to create a shockwave at your feet. Each creature you choose within 45 ft of you when this happens becomes marked by you for one minute.  Marked creatures consider any space within 30 ft of you to be difficult terrain. Whenever a marked creature within 30 ft of you casts a spell that would heal or remove a negative effect from a creature, they must attempt to resist the boot's effects.  The target must either make a Charisma saving throw DC [[14 + @{pb}]] (14 + prof) or make a contested spell ability check against your spellcasting ability. On a failure, the spell fails and has no effect."
+			]
+		},
+		{
+			"name": "Everlife",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"wondrous": true,
+			"entries": [
+				"This circular amulet has 9 different colored gems encrusted into it. The effects of this amulet only function while you are wearing and attuned to it. When you would fall to 0 hit points on a plane outside the Ethereal Plane, you instead fall to 1 hit point, are moved to the Ethereal Plane, and become stunned until the start of your next turn. At the start of your next turn, you return to the plane you were in, appearing in an unoccupied space of your choice within 30 feet of where you last were, and make a Wisdom saving throw (DC 10). On a failed save, you gain a point of corruption. On a successful save, the DC of this saving throw increases by 5, stacking until you take a long rest or you fail the save."
+			]
+		},
+		{
+			"name": "Exhalted Everlife",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"wondrous": true,
+			"entries": [
+				"This circular amulet has 9 different colored gems encrusted into it. The effects of this amulet only function while you are wearing and attuned to it. When you would fall to 0 hit points on a plane outside the Ethereal Plane, you immediately roll half your hit dice and regain that much health, are moved to the Ethereal Plane, and become stunned until the start of your next turn. At the start of your next turn, you return to the plane you were in, appearing in an unoccupied space of your choice within 30 feet of where you last were, and make a Wisdom saving throw (DC 10). On a failed save, you gain a point of corruption. On a successful save, the DC of this saving throw increases by 5, stacking until you take a long rest or you fail the save."
+			]
+		},
+		{
+			"name": "Dislairay Circlet",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"wondrous": true,
+			"entries": [
+				"The front of this circlet is adorned with an upside-down triangle with a swirl inside.",
+				"This circlet is made of pure chaotic energy. If you desire, before you would roll a d20, you may activate the circlet to do the following. You may also use your reaction to force a creature you can see within 30 feet to do the following before they make a d20 roll. An unwilling creature must make a Wisdom saving throw DC [[14 + @{pb}]] (14 + prof) to avoid the affect.",
+				"When affected by the circlet and making a d20 roll, target creature first rolls a d12, which affect the d20 roll in the following way.  Flat increases/decreases to the roll can not cause it to critically succeed/fail"
+				"Roll result: [[1t[DislairayTable]]]"
+			]
+		},
+		{
+			"name": "Exhalted Dislairay Circlet",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"wondrous": true,
+			"entries": [
+				"The front of this circlet is adorned with an upside-down triangle with a swirl inside.",
+				"This circlet is made of pure chaotic energy. If you desire, before you would roll a d20, you may activate the circlet to do the following. You may also force any creature you can see within 30 feet to do the following before they make a d20 roll. An unwilling creature must make a Wisdom saving throw DC [[14 + @{pb}]] (14 + prof) to avoid the affect.",
+				"When affected by the circlet and making a d20 roll, target creature first rolls a d12, which affect the d20 roll in the following way.  Flat increases/decreases to the roll can not cause it to critically succeed/fail"
+				"Roll result: [[1t[DislairayTable]]]"
 			]
 		}
 	]
