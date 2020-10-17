@@ -215,7 +215,7 @@
 			"dmg1": "2d4+3",
 			"dmg1": "2d6",
 			"dmgType": "P",
-			"range": "40/80"
+			"range": "40/80",
 			"rarity": "artifact",
 			"wondrous": true,
 			"entries": [
@@ -231,7 +231,7 @@
 			"dmg1": "2d4+3",
 			"dmg1": "2d6",
 			"dmgType": "P",
-			"range": "40/80"
+			"range": "40/80",
 			"rarity": "artifact",
 			"wondrous": true,
 			"entries": [
