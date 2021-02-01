@@ -13,13 +13,14 @@
 		{
 			"name": "Keen Edge",
 			"source": "Keen Edge",
-			"type": "",
 			"weaponCategory": "Simple",
 			"dmg1": "1d6+2",
 			"dmgType": "P",
 			"rarity": "very rare",
 			"wondrous": true,
-			"ability": { "wis": 2 },
+			"ability": { 
+				"wis": 2 
+			},
 			"reqAttune": true,
 			"property": [
 				"F",
