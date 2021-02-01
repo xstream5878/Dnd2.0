@@ -240,6 +240,34 @@
 				"Instead of throwing this dagger, a black dagger-shaped blade of necrotic energy shoots out of it at your target. On hit, the energy remains in its target until the end of your next turn. Once per turn, as a free action, you can teleport to any of the necrotic blades still in existence, the Slicer replacing and dissipating the energy that remains.",
 				"Once per day, when teleporting to a necrotic blade, you cause a piercing scream at the location you were and where you appear. Each enemy within 20 ft of either location that can hear you makes an Intelligence saving throw DC [[14 + @{pb}]] (14 + prof). On a failed save, the creature takes [[6d6]] psychic damage (half on a success) and become frightened of you for 1 minute. Afflicted creatures can remake the saving throw at the end of each of its turns."
 			]
+		},
+		{
+			"name": "Lust's Embrace",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"reqAttune": "by an elf, half-elf, or fey creature",
+			"wondrous": true,
+			"entries": [
+				"This robe grants +1 AC and an additional +1 AC against any creature that is looking at you. When a creature within 30 ft of you that is looking at you misses you with an attack, you can use your reaction to force that creature to make a Charisma saving throw DC [[14 + @{pb}]] (14 + prof), being charmed by you until the end of their next turn on a failed save and performing one of the following actions, determined by a d6: ",
+				"1: Infatuation. The target does everything it can to move adjacent to you, only taking the Dash action.\n2: Concern. The target heals you to the best of its abilities.\n3: Empower. The target buffs you if possible, or moves between you and one of your enemies if not.\n4: Protection. Target moves adjacent to you and holds its action to attack the first creature hostile towards you that enters its reach \n5: Horrify. The target attempts to get out of your sight, if possible, or as far away from you as it can.\n6: Bloodlust. The target selects a random creature other than you to attack for the turn."
+			]
+		},
+		{
+			"name": "Exhalted Lust's Embrace",
+			"source": "Relics",
+			"type": "OTH",
+			"rarity": "artifact",
+			"reqAttune": "by an elf, half-elf, or fey creature",
+			"wondrous": true,
+			"charges": 1,
+			"recharge": "restLong",
+			"bonusAC": "+1"
+			"entries": [
+				"This robe grants +1 AC and an additional +1 AC against any creature that is looking at you. When a creature within 60 ft of you that is looking at you misses you with an attack, you can use your reaction to force that creature to make a Charisma saving throw DC [[12 + @{pb}]] (12 + prof), being charmed by you until the end of their next turn on a failed save and performing one of the following actions, determined by a d6: ",
+				"1: Infatuation. The target does everything it can to move adjacent to you, only taking the Dash action.\n2: Concern. The target heals you to the best of its abilities.\n3: Empower. The target buffs you if possible, or moves between you and one of your enemies if not.\n4: Protection. Target moves adjacent to you and holds its action to attack the first creature hostile towards you that enters its reach \n5: Horrify. The target attempts to get out of your sight, if possible, or as far away from you as it can.\n6: Bloodlust. The target selects a random creature other than you to attack for the turn.",
+				"Once per long rest, as an action, you can attempt to use the robe's reaction effect on any number of creatures within 30 ft of you that can see you."
+			]
 		}
 	]
 }
